@@ -9,7 +9,7 @@ handler.before = function (m, { isOwner, isAdmin, isBotAdmin}) {
     let isBadword = badwordRegex.exec(m.text)
 
     if (m.isGroup && isBotAdmin && !chat.antiBadword && !chat.isBanned && !user.banned && isBadword && !isOwner && !isAdmin) {
-                 await this.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.id, participant: m.sender } })
+       this.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.id, participant: m.sender } })
    }
 }
 module.exports = handler
