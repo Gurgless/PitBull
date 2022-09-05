@@ -104,7 +104,7 @@ const fkgif = {
 	                  } 
                      }
                      
-                     let tksk = `${pe}${ucapan()}, @${m.sender.split`@`[0]} ${pe}
+                     let tksk = `${pe}${ucapan()}, @${m.sender.split`@`[0]} ${pickRandom(['😅', '😜'])}${pe}
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
@@ -361,8 +361,8 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 "title": "☎️ ∫  Kata penutup ",
                                 "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
                                 "rowId": ".creator"
-                                }]
-           ] 
+                                }], "title": "▮Info Lainnya 」"
+                }] 
     const listMessage = {
       text: `Hai Kak ${name} Pilih Menu Dibawah Ini Yah Kak`.trim(),
       footer: 'Gunakan Dengan Bijak, Dilarang Melakukan Spamming, Langgar = Banned',
