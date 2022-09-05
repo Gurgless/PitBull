@@ -104,7 +104,7 @@ const fkgif = {
 	                  } 
                      }
                      
-                     let tksk = `${pe}${ucapan()}, @${m.sender.split`@`[0]} ${pickRandom(['😅', '😜'])}${pe}
+                     let tksk = `${pe}${ucapan()}, @${m.sender.split`@`[0]} ${pickRandom(['😅', '😨', '😜'])}${pe}
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
