@@ -239,7 +239,7 @@ ${'```%npmdesc```'}
      const jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)) 
      const menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60)) 
      const detikk = Math.floor( lebih % (1000 * 60) / 1000) 
-     const ultah = new Date('October 1 2022 23:59:59')
+     const ultah = new Date('May 29 2022 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
