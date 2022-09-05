@@ -8,7 +8,7 @@ handler.before = function (m, { isOwner, isAdmin, isBotAdmin}) {
     let user = db.data.users[m.sender]
     let isBadword = badwordRegex.exec(m.text)
 
-    if (m.isGroup && isBotAdmin && !chat.antiBadword && !chat.isBanned && !user.banned && isBadword && !isOwner && !isAdmin) {
+    if (m.isGroup && isBotAdmin && isBadword) {
        this.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.id, participant: m.sender } })
    }
 }
