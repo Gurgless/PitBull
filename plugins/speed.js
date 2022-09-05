@@ -88,9 +88,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
      quoted: ftrol,
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-                 sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/', 
+                 sourceUrl: 'https://instagram.com/riyoshi_dyxn', 
              title: `Merespon dalam ${speed} milidetik`, 
-             body: '© Cute IQ-MD By Ziv San', 
+             body: '© R-BOT By Rio', 
            thumbnail:  await (await fetch(fla + 'Ping')).buffer()
              } 
       } 
