@@ -12,7 +12,7 @@ let handler = async(m, { conn }) => {
     itemCount : 999999,
     status: 404,
     surface : 404,
-    message: `Nih My Mastah :3`, 
+    message: `Pemilik Bot Ini`, 
     orderTitle: ``,
     thumbnail: await (await fetch('https://telegra.ph/file/7501d485189f34dc429a7.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -28,11 +28,11 @@ let handler = async(m, { conn }) => {
    })
 	]
 	await delay(100)
-  return conn.sendButtonDoc(m.chat, `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^`, 'Itu Owner Ku Yah Kak Jangan Sungkem Untuk Chat ;3','Credits', '.tqto', m, { quoted: conn.p[id][0],
+  return conn.sendButtonDoc(m.chat, `Hai kak @${await m.sender.split('@')[0]}, itu nomor ownerku, jangan dispam ya`, 'Itu Owner (Pemilik), bukan bot, chat jika ada kepentingan!','Credits', '.tqto', m, { quoted: conn.p[id][0],
     contextInfo: { //forwardingScore: 99999, isForwarded: true,
         externalAdReply: { //showAdAttribution: true,
-        	sourceUrl: 'https://instagram.com/inizenscuy/',
-            title: 'Jangan Bully Claraa Dia Kang Kopas <3',
+        	sourceUrl: 'https://instagram.com/riyoshi_dyxn/',
+            title: 'Jangan Spam Ke Owner',
             body: 'Follow IG Saya Bang Biar Keren •~•',
           thumbnail: await (await fetch(pp)).buffer()
         }
