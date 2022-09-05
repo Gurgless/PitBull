@@ -353,7 +353,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 "title": "🌟 ∫  Premium ",
                                 "description": "Menampilkan List Harga premium",
                                 "rowId": ".premium"
-{                               }, {
+                                }, {
                                 "title": "💭 ∫  Pertanyaan Tentang Bot Ini ",
                                 "description": "Especially WhatsApp users whose numbers start with +212",
                                 "rowId": ".QnA"
