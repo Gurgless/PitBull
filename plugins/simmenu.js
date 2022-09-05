@@ -97,19 +97,19 @@ const fkgif = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text":`RaaBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
-                 "title": `RaaBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "text":`R-BOT 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "title": `R-BOT 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
                  'jpegThumbnail': await (await fetch('https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg')).buffer()
                         }
 	                  } 
                      }
                      
-                     let tksk = `${pe}${ucapan()}, @${m.sender.split`@`[0]} ${pickRandom(['😅', '🥰', '😜'])}${pe}
+                     let tksk = `${pe}${ucapan()}, @${m.sender.split`@`[0]} ${pickRandom(['😅', '💀', '😜'])}${pe}
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
-⚘ *Bot Name: RaaBotz-MD*
-⚘ *Creator: Claraa Chan*
+⚘ *Bot Name: R-BOT*
+⚘ *Creator: Riyoshi*
 ⚘ *Contact Owner Bot*
 *http://wa.me/62895604670507*
 ⚘ *Tanggal: ${date}*  
@@ -150,21 +150,21 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner
 
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'62895604670507'.split('@')[0]}*`
+ *Powered By @${'6285664770042'.split('@')[0]}*`
        let judul = `${ucapanl()}`.trim() 
        const sections = [
                               {
                                 "rows": [{
                                          "title": "📊 › Status ",
-                                         "description": "Status カ RaaBotz-MD",
+                                         "description": "Status カ R-BOT",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "⚡› Speed ",
-                                         "description": "Menampilkan Kecepatan Respon カ RaaBotz-MD",
+                                         "description": "Menampilkan Kecepatan Respon カ R-BOT",
                                          "rowId": ".ping"
                                     }, {
                                          "title": "🗒️› Info ",
-                                         "description": "Menampilkan Info カ RaaBotz-MD",
+                                         "description": "Menampilkan Info カ R-BOT",
                                          "rowId": ".info"
                                     }, {
                                          "title": "🎐 › Developer Bot ",
@@ -318,13 +318,13 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 }, {
                                 "rows": [{                                	
                                 "title": "📝 ∫  Catatan Perubahan ",
-                                "description": "Last Update Terakhir Di RaaBotz-MD",
+                                "description": "Last Update Terakhir Di R-BOT",
                                 "rowId": ".notes"                  
                 }],                
                                 "title": "▮Last Update 」"
                                 }, {
                                 "rows": [{                                	
-                  "title": "「 🗨️ 」› Raa Chat ",
+                  "title": "「 🗨️ 」› Chat ",
                   "description": "Mengobrol Dengan Orang Lain",
                   "rowId": ". start"
                 }],
@@ -353,11 +353,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 "title": "🌟 ∫  Premium ",
                                 "description": "Menampilkan List Harga premium",
                                 "rowId": ".premium"
-                                }, {
-                                "title": "🔬  ∫  Source Code ",
-                                "description": "Menampilkan Source Code Bot",
-                                "rowId": ".sc"
-                                }, {
+{                               }, {
                                 "title": "💭 ∫  Pertanyaan Tentang Bot Ini ",
                                 "description": "Especially WhatsApp users whose numbers start with +212",
                                 "rowId": ".QnA"
@@ -365,20 +361,11 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 "title": "☎️ ∫  Kata penutup ",
                                 "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
                                 "rowId": ".creator"
-                                }], 
-                    "title": "▮Info Lainnya 」"
-                }, {
-                  "rows": [{
-                  "title": "🥇「 Contributor 」",
-                  "description": "Terima kasih banyak untuk user yang telah berpartisipasi",                  
-                  "rowId": ".? thnks"
-                       }],
-                                "title": "▮Thanks To  」"
-                            }
+                                }]
            ] 
     const listMessage = {
       text: `Hai Kak ${name} Pilih Menu Dibawah Ini Yah Kak`.trim(),
-      footer: 'Tetap Follow Terus Bot Yah Kak >//<',
+      footer: 'Gunakan Dengan Bijak, Dilarang Melakukan Spamming, Langgar = Banned',
       title: judul,
       buttonText: "Pilih Disini",
       sections
