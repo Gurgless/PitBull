@@ -22,7 +22,7 @@ ketik *#astagfirullah* atau *#maaf* untuk mengurangi warning
             user.banned = true*/
             if (m.isGroup) {
                 if (isBotAdmin) {
-                  this.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.id, participant: m.sender } })
+                  conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.id, participant: m.sender } })
                 	/*this.groupParticipantsUpdate(m.chat, [m.sender], "remove")*/
                    //this.groupSettingChange(m.chat, GroupSettingChange.messageSend, false)
                 }
