@@ -333,7 +333,7 @@ ${'```%npmdesc```'}
        } 
      }) 
      if (teks == '404') {
- 	let cute = `${pickRandom(['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoveOIzsb7e-JwR-az1eIUlBLFaL0EQ13aqPiACXCxCDpt8lorTXq2z_I&s=10'])}` 
+ 	let cute = `${pickRandom(['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoveOIzsb7e-JwR-az1eIUlBLFaL0EQ13aqPiACXCxCDpt8lorTXq2z_I&s=10', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROSde25FApzVZiOPPyxl730xOQkUbt9atYfA&usqp=CAU'])}` 
  	let ori = `Hi Kak, @${m.sender.split`@`[0]}
  
 Saya Adalah R-BOT, Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Jika Kamu Ingin Request Fitur Silahkan Ketik #request Pesan Atau Fitur Yang Kamu Inginkan!`
