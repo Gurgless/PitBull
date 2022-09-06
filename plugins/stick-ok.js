@@ -1,4 +1,4 @@
-let moment = require('moment-timezone')
+/*let moment = require('moment-timezone')
 let handler = async (m, { conn, command, text }) => { 
  await conn.sendFile(m.chat, 'https://3003.filemail.com/api/file/get?filekey=EMUBd1S94CNyq5n183XeLBvybVX05pLS4hCqfmyUZIN6pzrcR5cHAD1isyXDWevdabHdKYtUdl1FvhIdEXU', 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
@@ -27,4 +27,4 @@ ptt: true, contextInfo: {
         res = "Good Evening 🌃"
     }
     return res
-}
+}*/
