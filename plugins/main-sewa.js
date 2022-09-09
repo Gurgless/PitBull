@@ -4,17 +4,15 @@ let handler = async (m, { conn }) => {
     pepe = 'https://i.ibb.co/BzR1jRq/08a088fe953b.jpg'
     baper = await fetch(pepe).then(a => a.buffer())
     let listMessage = {
-        "title": "◈ Made by Rio",
+        "title": "◈ Made By Rio",
         "description": `
 ┌「 *Sewa bot* 」
 │     
 ├ 1 Grup / 30 Hari
-├ Rp. 10,000 Gopay
-├ Rp. 15,000 Pulsa Three
+├ Rp. 10,000 Dana/Pulsa
 │
 ├ 1 Premium / 30 Hari
-├ Rp. 5,000 Gopay
-├ Rp. 10,000 Pulsa Three
+├ Rp. 5,000 Dana/Pulsa
 │
 ├ tertarik? hubungi: 
     ├ @6285664770042
