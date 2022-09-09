@@ -270,7 +270,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                   "description": "Menampilkan fitur dari internet",
                   "rowId": ".? internet"
                 }, {
-                  "title": "「 🖊️ 」› Editz Menu ",
+                  "title": "「 🖊️ 」› Edit Menu ",
                   "description": "Menampilkan fitur dari logo",
                   "rowId": ".? nulis"
                 }, {
