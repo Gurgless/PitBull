@@ -31,7 +31,7 @@ let fetch = require('node-fetch')
                      "description": "Harap membaca Peraturan demi kenyamanan kita bersama", 
                      "rowId": `${usedPrefix}rules` 
                    }, { 
-                     "title": "Group Official R-BOT", 
+                     "title": "Group Official R-BOT", 
                      "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan", 
                      "rowId": `${usedPrefix}gcbot` 
                    }], 
