@@ -110,8 +110,6 @@ const fkgif = {
                 *《 BOT INFO 》*
 ⚘ *Bot Name: R-BOT*
 ⚘ *Creator: Riyoshi*
-⚘ *Contact Owner Bot*
-*http://wa.me/62895604670507*
 ⚘ *Tanggal: ${date}*  
 ⚘ *Jam: ${time} WIB*
 ⚘ *Status: 「 ${mode} 」*
